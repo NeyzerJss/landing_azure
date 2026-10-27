@@ -42,3 +42,119 @@ footer {
     color: #666;
     font-size: 0.9rem;
 }
+
+/* Sección de atracciones */
+.controles {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0;
+}
+#buscador {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#buscador:focus {
+    outline: none;
+    border-color: #0078d4;
+    box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.15);
+}
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.chip {
+    border: 1px solid #0078d4;
+    background: white;
+    color: #0078d4;
+    padding: 6px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.chip:hover,
+.chip.activo {
+    background: #0078d4;
+    color: white;
+}
+.estado {
+    font-size: 0.9rem;
+    color: #666;
+}
+.estado.error {
+    color: #c62828;
+}
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+.tarjeta {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.tarjeta h3 {
+    margin: 0;
+    font-size: 1.05rem;
+}
+.tarjeta p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.tarjeta .ubicacion {
+    color: #0078d4;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.badge {
+    align-self: flex-start;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white;
+}
+.badge-playa {
+    background: #0288d1;
+}
+.badge-cultura {
+    background: #8e24aa;
+}
+.badge-aventura {
+    background: #2e7d32;
+}
+.tarjeta-pie {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+}
+.precio {
+    font-weight: bold;
+    color: #333;
+}
+.rating {
+    color: #f9a825;
+    font-weight: bold;
+}
+.sin-resultados {
+    color: #666;
+    grid-column: 1 / -1;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atracciones - Mi Web en Azure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Proyecto en Azure Static Web Apps</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="caracteristicas.html">Características Técnicas</a></li>
+                <li><a href="atracciones.html" class="active">Atracciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Atracciones turísticas de la Riviera Maya</h2>
+            <p>Estos datos se obtienen en tiempo real desde nuestro servicio web serverless en <code>/api/atracciones</code>.</p>
+
+            <div class="controles">
+                <input type="search" id="buscador" placeholder="Buscar por nombre, descripción o lugar..." aria-label="Buscar atracciones">
+                <div class="chips">
+                    <button type="button" class="chip activo" data-categoria="">Todas</button>
+                    <button type="button" class="chip" data-categoria="playa">Playas</button>
+                    <button type="button" class="chip" data-categoria="cultura">Cultura</button>
+                    <button type="button" class="chip" data-categoria="aventura">Aventura</button>
+                </div>
+            </div>
+
+            <p id="estado" class="estado">Consultando el servicio web...</p>
+            <div id="tarjetas" class="tarjetas"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Práctica de Desarrollo y Despliegue</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

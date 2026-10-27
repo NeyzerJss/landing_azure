@@ -1,0 +1,15 @@
+{
+  "name": "api-turistica",
+  "version": "1.0.0",
+  "description": "Servicio web turístico para la landing de Azure Static Web Apps",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

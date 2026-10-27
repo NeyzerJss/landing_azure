@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tulum",
+    "nombre": "Zona Arqueológica de Tulum",
+    "categoria": "cultura",
+    "descripcion": "Ruinas mayas frente al mar Caribe, uno de los sitios arqueológicos más fotografiados de México.",
+    "ubicacion": "Tulum, Quintana Roo",
+    "precioMXN": 95,
+    "rating": 4.8
+  },
+  {
+    "id": "playa-del-carmen",
+    "nombre": "Quinta Avenida",
+    "categoria": "playa",
+    "descripcion": "Bulevar peatonal con restaurantes, boutiques y vida nocturna a pocos pasos de la playa.",
+    "ubicacion": "Playa del Carmen, Quintana Roo",
+    "precioMXN": 0,
+    "rating": 4.6
+  },
+  {
+    "id": "coba",
+    "nombre": "Zona Arqueológica de Cobá",
+    "categoria": "cultura",
+    "descripcion": "Ciudad maya rodeada de selva con la pirámide de Nohoch Mul y senderos para recorrer en bicicleta.",
+    "ubicacion": "Cobá, Quintana Roo",
+    "precioMXN": 80,
+    "rating": 4.7
+  },
+  {
+    "id": "cenote-dos-ojos",
+    "nombre": "Cenote Dos Ojos",
+    "categoria": "aventura",
+    "descripcion": "Cenote de aguas cristalinas ideal para snorkel y buceo en un sistema de cavernas submarinas.",
+    "ubicacion": "Tulum, Quintana Roo",
+    "precioMXN": 350,
+    "rating": 4.9
+  },
+  {
+    "id": "isla-mujeres",
+    "nombre": "Isla Mujeres",
+    "categoria": "playa",
+    "descripcion": "Isla con playas de arena blanca, arrecifes y el Parque Nacional El Garrafón.",
+    "ubicacion": "Isla Mujeres, Quintana Roo",
+    "precioMXN": 250,
+    "rating": 4.7
+  },
+  {
+    "id": "xcaret",
+    "nombre": "Parque Xcaret",
+    "categoria": "aventura",
+    "descripcion": "Parque ecoarqueológico con ríos subterráneos, aviario y espectáculos culturales.",
+    "ubicacion": "Playa del Carmen, Quintana Roo",
+    "precioMXN": 1900,
+    "rating": 4.8
+  },
+  {
+    "id": "sian-kaan",
+    "nombre": "Reserva de Sian Ka'an",
+    "categoria": "aventura",
+    "descripcion": "Reserva de la biosfera con manglares, cenotes y una gran diversidad de aves y fauna marina.",
+    "ubicacion": "Tulum, Quintana Roo",
+    "precioMXN": 1200,
+    "rating": 4.9
+  },
+  {
+    "id": "chichen-itza",
+    "nombre": "Chichén Itzá",
+    "categoria": "cultura",
+    "descripcion": "Patrimonio de la Humanidad y una de las nuevas siete maravillas del mundo, con la pirámide de Kukulcán.",
+    "ubicacion": "Yucatán, México",
+    "precioMXN": 614,
+    "rating": 4.8
+  }
+]
